@@ -1,0 +1,28 @@
+spring.application.name: uploader-service
+
+server.servlet.context-path: /uploads
+server.port: 9050
+
+eureka.client.service-url.defaultZone: http://localhost:8761/eureka
+
+cloudinary:
+  cloud-name: dkhj1rghl
+  api-key: 293799921697652
+  api-secret: CvOqPCrVkwDHIG5KoAVl5FRv4Oc
+
+gcloud:
+  storage-bucket-name: p2-cs-linkedin
+  storage-access-key: >
+    {
+      "type": "service_account",
+      "project_id": "kubernetes-projects-441716",
+      "private_key_id": "314c8d70683badd2e31086a712410630fadee58b",
+      "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQCl3I27E4tiBDp9\nT4obT9ufe3/uNuQidYQBx1xNvYPUTeVVXgRlq0mvDqTPCod9qzURNX+9MFqSnKkL\nHppifkSHSfHHrT9pVsQw78S4NYGqZfxtZ/P+VDVs/8/sFzZO2I5456wYnpJE0nsG\n+eP0kopzCATX8zgnm3/HfrU4Qit/gEQKF9ELawockxpdQo4CEkB6lhpbnBdOO7ly\ns/egHqV3Www0jtPEtPFC7cK9jVdPgmpmWCiR9lP3ilGZVGQLx48CoT8cYvL4B6Sd\nA2xi+P6ZX9Y+yXHiTYaMoW8Z6LClcsXd6wWVkJRgmh1i3Ti2SXIlzE+niT9+puKM\n7I6CTN67AgMBAAECggEAD6DUiftLEUh5hABp1vqTV/FFgKcTbMIxI6nEfMUnfGp9\nxw/XNW09jo0mryUi1yiGrsE68N/ZgoilNP/RNDtv+zKjrljlgxt13Dz7bRAKaiMd\nKE641g7a0EZz/p70f9sDGBYpFR8vHeUA5D6V+1Mp6hgOiZQu7ZLgjpk8O7mgatPL\natZQGkg9gBgYXZuwYDj0dxJ0y9RDa4hRFwpcAy/b7USs6Gv9jNZPKwvXPvWgQpml\nJrZoDyGYIW9Ska/dGrxnDSpQuM6pk+bRu8T4Q8iGhO2Ez/q9Uvz84XrA3rWe0fZk\nmaPtl3ajA3leSX890eTQfZriixuDkOROrE7hKSj6YQKBgQDf6HPVapnRXkP3QJFw\n3zPy+Hbz/XEGCz5L5EN6HgDghz1cugWg6mrJmM0V12BvSrygr2qV1gd26w6KdZKw\nCrxPBzN/0FTgWqOD4MVy+YoqMPLy01ZcMmVjogmQ0/GDQnYu5zuLAQKfQVTSVJ5m\nyy3QJURmmLzSFchrQUjkVl85zQKBgQC9okgo+R8JGs5nsV4vg2OyXJct3iyOzKKh\nOIgtFeeMWFQNUrNm9CGHFxUSd3fKuYI9xuYQACatble6OtaMMqmayf1OaCvSgA6P\nmQqiMKetrWgj1IjaaoeITHpjAUb5mbERAlZuALqgoULmDJcRJmWoVfTZ2h0bNczf\nm1Yp69TSpwKBgQDeDmeKOQ1RQX6AII3c9c9MYLN/6FKF3vKqSzfMTSMriZQGeQoJ\n+1Fqm1qRFacy2FjXtwAqlzeR7S3fjRir9AmrCoY9dPwoAFv39xt6mhY3H5Jh1cvo\n5aX9uH5qHnd/aJNSkspPYfIaxKz9ZyQs58WIjt0WLtXcN/QqwnUq1qnb5QKBgFNx\no1sUNAnnl8edDprNsAL+Jy/xwZ2cgjt7CsD8EIV7IJE0QOkep9ov1//mPfogoyTX\n7sg/qMVL9qJl3Z6XdHY+R45G3HGmE8IwT7OKwV31HgwWK5ogoj7hmEEUgMy4Smf3\npVyGSZkBHNTp2Veck8L8/98U0RX2GI6UZdfQhDelAoGBALnuO3ai77/Oia1EAv4f\nGtyFsc2O2fJIehb3fg0rPrvW7YUZ8j5cJjNIlRj9RhLfqxelsUji8GiThR7EZJWX\nb/WposGonlnScOimulcZLiXBjKrOEhdZAREtLEhkUkTmdoPvbFSL0+fznuZy7lzl\nOPuBZ827j3uHSHgJ2M7TUHts\n-----END PRIVATE KEY-----\n",
+      "client_email": "p2-cs-linkedin-account@kubernetes-projects-441716.iam.gserviceaccount.com",
+      "client_id": "105807579822661131071",
+      "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+      "token_uri": "https://oauth2.googleapis.com/token",
+      "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+      "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/p2-cs-linkedin-account%40kubernetes-projects-441716.iam.gserviceaccount.com",
+      "universe_domain": "googleapis.com"
+    }
